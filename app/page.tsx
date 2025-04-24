@@ -198,8 +198,8 @@ export default function TodoApp() {
             </Select>
           </div>
           <DialogFooter>
-            <Button onClick={() => setIsEditDialogOpen(false)}>Cancel</Button>
-            <Button onClick={handleUpdateTask}>Save Changes</Button>
+            <Button onClick={() => setIsEditDialogOpen(false)} className="my-2">Cancel</Button>
+            <Button onClick={handleUpdateTask} className="my-2">Save Changes</Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
