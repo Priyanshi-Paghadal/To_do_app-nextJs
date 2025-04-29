@@ -91,7 +91,7 @@ export default function TodoApp() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-purple-50 p-4 flex flex-col items-center">
       <h1 className="text-3xl md:text-4xl font-bold text-purple-500 my-8">
-        Todo-List App
+        Task Management System
       </h1>
 
       {/* Add Task Form */}
